@@ -1,33 +1,22 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  width="120"
-  height="80"
-  viewBox="0 0 120 80"
+  width="90"
+  height="56"
+  viewBox="0 0 90 56"
   role="img"
   aria-label="StickRate">
-  <!--
-    Vertical logo — light variant
-    Bars centered above wordmark, bottom-aligned at y=52
-    Bar width = 11px, gap = 6px, total bar group width = 3×11 + 2×6 = 45px
-    Center in 120px canvas → start x = (120 - 45) / 2 = 37.5 → 38
-    Bar heights (100% = 36px):
-      Bar 1 (navy  #1A2F3E): 53% → 19px, top = 33
-      Bar 2 (teal  #1A7A75): 73% → 26px, top = 26
-      Bar 3 (hero  #009E8A): 100% → 36px, top = 16
-    Wordmark centered at bottom, font-size 17
-  -->
 
-  <!-- Bar 1: navy, h=19, top=33 -->
-  <rect x="38"  y="33" width="11" height="19" rx="5.5" fill="#1a2f3e"/>
-  <!-- Bar 2: teal-mid, h=26, top=26 -->
-  <rect x="55"  y="26" width="11" height="26" rx="5.5" fill="#1a7a75"/>
-  <!-- Bar 3: hero teal, h=36, top=16 -->
-  <rect x="72"  y="16" width="11" height="36" rx="5.5" fill="#009e8a"/>
+  <!-- Bar 1: navy -->
+  <rect x="13" y="9"  width="11" height="19" rx="5.5" fill="#1a2f3e"/>
+  <!-- Bar 2: teal-mid -->
+  <rect x="30" y="2"  width="11" height="26" rx="5.5" fill="#1a7a75"/>
+  <!-- Bar 3: hero teal -->
+  <rect x="47" y="0"  width="11" height="28" rx="5.5" fill="#009e8a"/>
 
-  <!-- Wordmark centered -->
+  <!-- Wordmark -->
   <text
-    x="60"
-    y="72"
+    x="45"
+    y="48"
     font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
     font-size="17"
     font-weight="700"
